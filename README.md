@@ -26,7 +26,6 @@ A simple command-line application built using Python and SQLite to record and ma
 Personal-Expense-Tracker/
 │
 ├── expense_tracker.py
-├── expenses.db
 └── README.md
 ```
 
@@ -35,13 +34,13 @@ Personal-Expense-Tracker/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/sinchana07m-gif/personal-expense-tracker.git
 ```
 
 ### 2. Open the project folder
 
 ```bash
-cd Personal-Expense-Tracker
+cd personal-expense-tracker
 ```
 
 ### 3. Run the program
@@ -50,7 +49,7 @@ cd Personal-Expense-Tracker
 python expense_tracker.py
 ```
 
-The application will display a menu where you can choose different expense management options.
+The application will display a menu where you can choose different options for managing expenses.
 
 ## How It Works
 
@@ -61,7 +60,9 @@ The application uses SQLite to store expense records. Each expense contains:
 * Description
 * Amount
 
-The program provides options to add, view, search, update, and delete records. It also calculates the total amount spent and provides a category-wise summary.
+Users can add, view, search, update, and delete expense records. The application also calculates the total amount spent and provides a category-wise summary.
+
+The SQLite database is created automatically when the program is run for the first time.
 
 ## Future Improvements
 
@@ -74,4 +75,11 @@ The program provides options to add, view, search, update, and delete records. I
 ## Author
 
 **Sinchana M**
+
+
+
+
+
+
+
 
